@@ -1,6 +1,6 @@
 body {
     background-image: url('images/cat.png');
-    background-size: 100% 900%;
-    background-repeat: repeat;
-    background-position: top center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
