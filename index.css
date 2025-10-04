@@ -1,8 +1,18 @@
 body {
-    background-image: url('images/cat.png');
-    background-size: 720px 640px;
+    background-image: url('images/screen.gif');
+    background-size: 800px 640px;
     background-attachment: scroll;
     background-position:center top;
     background-repeat: no-repeat;
     background-color: black;
+}
+.test {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-320%) translateY(60%);
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+    pointer-events: all;
 }
