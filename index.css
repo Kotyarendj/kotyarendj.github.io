@@ -6,7 +6,9 @@ body {
     background-repeat: no-repeat;
     background-color: black;
 }
-.test {
+
+/* BUTTONS */
+.aboutme {
     position: fixed;
     top: 20px;
     left: 50%;
@@ -14,5 +16,25 @@ body {
     z-index: 10;
     width: 100px;
     height: 100px;
+    pointer-events: all;
+}
+.steam {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(675%) translateY(1100%);
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    pointer-events: all;
+}
+.discord {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(550%) translateY(1100%);
+    z-index: 10;
+    width: 40px;
+    height: 40px;
     pointer-events: all;
 }
