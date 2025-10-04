@@ -1,6 +1,8 @@
 body {
     background-image: url('images/cat.png');
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background-size: 720px 640px;
+    background-attachment: scroll;
+    background-position:center top;
     background-repeat: no-repeat;
+    background-color: black;
 }
